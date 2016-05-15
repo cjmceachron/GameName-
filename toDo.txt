@@ -1,0 +1,17 @@
+to do list for game
+
+create database files.data
+  pokemon, types, attacks
+  
+function to build database in memory from file
+
+battle loop function
+
+dammage algorithms (attack function)
+
+trainer object with inventory
+
+graphics???
+
+
+
