@@ -1,0 +1,5 @@
+#type strong weak
+normal NULL NULL 
+fire plant water
+water fire plant
+plant water fire

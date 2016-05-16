@@ -1,0 +1,5 @@
+#name #type #hp #att #def #speed #move1 #move2 #move3
+GrassChee Plant 60 30 20 25 Pollenpuff Gutpunch Prettyflower
+FlameChee fire 40 40 30 35 Hotcoals Sulfersmell Brightflash
+WetChee water 50 35 35 30 Wetwily Chilymoisture lightMisting
+CheekusMaximus normal 100 50 30 10 Cheekyfist Cheekynap Cheekythink
