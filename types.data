@@ -1,26 +1,5 @@
-normal
-strong
-*
-weak
-*
-fire
-strong
-plant
-*
-weak
-water
-*
-water
-strong
-fire
-*
-weak
-plant
-*
-plant
-strong
-water
-*
-weak
-fire
-*
+#type strong weak
+normal NULL NULL 
+fire plant water
+water fire plant
+plant water fire
