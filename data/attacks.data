@@ -1,1 +1,13 @@
-#attackName damage accuaracy pp
+#name element accuracy pp doesDamage damage hasEffect
+Brightflash light 100 10 0 0 1
+Cheekyfist normal 100 5 1 100 0
+Cheekynap normal 75 5 0 0 1
+Cheekythink normal 15 5 0 0 1
+Chilymoisture water 100 15 0 0 1
+Fireball fire 90 15 1 60 0
+Gutpunch normal 95 10 1 40 0
+lightMisting water 100 20 1 10 1
+Pollenpuff plant 90 10 1 10 1
+Prettyflower plant 100 15 0 0 1
+Sulfersmell fire 75 10 0 0 1
+Wetwily water 80 10 1 55 0
