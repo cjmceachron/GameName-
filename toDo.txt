@@ -13,5 +13,11 @@ trainer object with inventory
 
 graphics???
 
+buildPlayerTeam
+
+buildAiTeam
+
+
+
 
 
