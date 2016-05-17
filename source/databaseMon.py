@@ -4,8 +4,9 @@
 #databaseMon.py
 
 class databaseMon() :
-    def __init__(self, name, element, hp, attack, defense, speed, move0, move1, move2 ):
+    def __init__(self, name, points, element, hp, attack, defense, speed, move0, move1, move2 ):
         self.name = name
+        self.points = points
         self.element = element
         self.hp = hp
         self.attack = attack
