@@ -22,8 +22,8 @@ def buildDatabase(monFilePath, elementFilePath, attacksFilePath):
     #split line and append new mon to monList
     for member in lines:
         mLineInfo = member.split()
-        monList.append(databaseMon(mLineInfo[0], mLineInfo[1], mLineInfo[2], mLineInfo[3], mLineInfo[4], mLineInfo[5], mLineInfo[6], mLineInfo[7], mLineInfo[8] ))
-    #print ("MonList[3] at1: %s" % (monList[3].moves[0]))
+        monList.append(databaseMon(mLineInfo[0], mLineInfo[1], mLineInfo[2], mLineInfo[3], mLineInfo[4], mLineInfo[5], mLineInfo[6], mLineInfo[7], mLineInfo[8], mLineInfo[9] ))
+    print ("MonList[3] points: %s" % (monList[3].points))
 
     #create elementList
     #ignore first line
