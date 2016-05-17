@@ -1,8 +1,12 @@
+# Project Cheekymon
+# Rob D'Andrea
+# 5/16/2016
+# mon.py
 
 class Mon:
 	'Container class for cheekymons'
 	
-	def __init__(self, name, type, hp, attack, defence, speed, moves)
+	def __init__(self, name, type, hp, attack, defence, speed, moves):
 		self.name = name
 		self.nick_name = ""
 		self.type = type
