@@ -3,29 +3,60 @@
 #Clayton McEachron
 #cheekymon.py
 
+from databaseMon import databaseMon
+from element import element
+from attack import attack
     
-def buildDatabase(monFilePath, typesFilePath, attacksFilePath):
+def buildDatabase(monFilePath, elementFilePath, attacksFilePath):
     #open files
     monFile = open(monFilePath, 'r')
-    typesFile = open(typesFilePath, 'r')
-    attacksFile = open(attacksFilePath, 'r')
-    print (monFile.readline())
+    elementFile = open(elementFilePath, 'r')
+    attackFile = open(attacksFilePath, 'r')
     
+    #create monList
+    #ignore first line
+    monFile.readline()
+    #readlines
     lines = monFile.readlines()
-    length = len(lines)
-    #monlist = [ databaseMon() for i in range(length)]
-    i = 0
+    monList = []
+    #split line and append new mon to monList
     for member in lines:
-        lineInfo = member.split()
-        #1st need to figure out how to do multi file program
-        #need to initialize databaseMon using the members of lineInfo as parameters
-        for member in lineInfo:
-            print "..%s"% member
+        mLineInfo = member.split()
+        monList.append(databaseMon(mLineInfo[0], mLineInfo[1], mLineInfo[2], mLineInfo[3], mLineInfo[4], mLineInfo[5], mLineInfo[6], mLineInfo[7], mLineInfo[8] ))
+    #print ("MonList[3] at1: %s" % (monList[3].moves[0]))
+
+    #create elementList
+    #ignore first line
+    elementFile.readline()
+    #readlines
+    lines = elementFile.readlines()
+    elementList = []
+    #split line and append new element to elementList
+    for member in lines:
+        eLineInfo = member.split()
+        elementList.append(element(eLineInfo[0], eLineInfo[1], eLineInfo[2] ))
+    #test
+    #for member in elementList:
+        #print ("name: %s strength: %s weakness: %s " %( member.name, member.strength, member.weakness))
+
+    #create attackList
+    #ignore first line
+    attackFile.readline()
+    #readlines
+    lines = attackFile.readlines()
+    attackList = []
+    #split line and append new attack to attackList
+    for member in lines:
+        aLineInfo = member.split()
+        attackList.append(attack(aLineInfo[0], aLineInfo[1], aLineInfo[2], aLineInfo[3], aLineInfo[4], aLineInfo[5], aLineInfo[6]))
+    #test
+    #for member in attackList:
+        #print ("name: %s element: %s : accuracy%s " %( member.name, member.element, member.accuracy))
 
         
 print "main"
 #build database in memory
-buildDatabase("mon.data", "types.data", "attacks.data")
+buildDatabase("mon.data", "elements.data", "attacks.data")
 #initialize game components
 
 #main game loop
