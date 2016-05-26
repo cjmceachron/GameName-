@@ -3,7 +3,7 @@
 # 5/16/2016
 # trainer.py
 
-class Trainer:
+class Trainer():
 	'Base class for human and computer trainers'
 	
 	def __init__(self, name, cheekymons, saved_mons, location, stats, inventory): #texture ids?
