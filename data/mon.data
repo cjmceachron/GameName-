@@ -1,5 +1,8 @@
-#name #type #hp #att #def #speed #move1 #move2 #move3
-GrassChee 3 Plant 60 30 20 25 Pollenpuff Gutpunch Prettyflower
-FlameChee 4 fire 40 40 30 35 Fireball Sulfersmell Brightflash
-WetChee water 4 50 35 35 30 Wetwily Chilymoisture lightMisting
-CheekusMaximus 10 normal 100 50 30 10 Cheekyfist Cheekynap Cheekythink
+#name #points #type #hp #att #def #speed #move1 #move2 #move3
+GrassChee 3 Plant 6 2 4 3 Pollenpuff Gutpunch Prettyflower
+FlameChee 4 fire 6 3 1 6 Fireball Sulfersmell Brightflash
+WetChee 4 water 7 2 2 4 Wetwily Chilymoisture lightMisting
+CheekusMaximus 10 normal 12 5 3 1 Cheekyfist Cheekynap Cheekythink
+CheekyJesus 7 light 6 5 5 0 7 Cheekycross Praisecheekus Brightflash
+CheekySatan 7 dark 4 4 4 4 Backstab Fireball Spook
+Cheeky 1 normal 3 2 1 6 Gutpunch Cheekynap Cheekythink
